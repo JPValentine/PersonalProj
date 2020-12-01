@@ -9,6 +9,8 @@ To Run:
   -python 3 is required to be downloaded and installed on your machine
   -go to directory where the code is and type:
       python3 main.py
+_______________________________________________
+Start Screen:
 
 ![](screenshot/pic2.png)
 _______________________________________________
