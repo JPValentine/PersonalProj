@@ -1,3 +1,11 @@
+"""
+Quick warm-up problem that finds the least amount USD coins required to give
+change for a dollar amount.
+JP Valentine
+9/13/2020
+"""
+
+
 print("This program shows the least amount of coins required to have the sum of your money value!")
 zenny=0.0
 zenny= input('Enter your money value: ')

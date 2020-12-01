@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+
+  <form action="." method="POST">{% csrf_token %}
+    <h1>IP Class finder!</h1>
+    <label for="ip">Enter IP Address:</label><br>
+    <input type="number" id="ip" name="ip1" max="255" min="1">
+    <input type="number" id="ip" name="ip2" max="255" min="0">
+    <input type="number" id="ip" name="ip3" max="255" min="0">
+    <input type="number" id="ip" name="ip4" max="255" min="1">
+    <input type="submit" value="=">
+    <p>Class Type: {{result}}</p>
+  </form>
+{% endblock %}

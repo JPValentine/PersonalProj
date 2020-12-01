@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+<h1>oct to hex</h1>
+{% block content %}
+<form action="." method="POST">{% csrf_token %}
+  <h1>Octal to Hexidecimal conversion!</h1>
+  <label for="fields">Number to convert:</label><br>
+  <input type="number" id="fields" name="in">
+  <input type="submit" value="=">
+  <p>Output: {{result}}</p>
+</form>
+{% endblock %}

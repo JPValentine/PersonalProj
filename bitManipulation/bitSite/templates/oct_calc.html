@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block content %}
+  <form action="." method="POST">{% csrf_token %}
+    <h1>Octal Calculator</h1>
+    <label for="fields">Enter two Octal numbers to calculate:</label><br>
+    <input type="number" id="fields" name="o1">
+    <select name="op" id="fields">
+      <option value="+" name="add">+</option>
+      <option value="-" name="sub">-</option>
+
+    </select>
+    <input type="number" id="fields" name="o2">
+    <input type="submit" value="=">
+    <p>Output: {{result}}</p>
+  </form>
+{% endblock %}

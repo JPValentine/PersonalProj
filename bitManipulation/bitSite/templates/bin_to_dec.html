@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block content %}
+<form action="." method="POST">{% csrf_token %}
+  <label for="fields">Number to convert:</label><br>
+  <input type="string" id="fields" name="in">
+  <input type="submit" value="=">
+  <p>Output: {{result}}</p>
+</form>
+{% endblock %}
