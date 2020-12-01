@@ -1,4 +1,4 @@
-the goal of this project was to practice with bit manipulation as well as getting a better grasp of how the django framework operates.
+The goal of this project was to practice with bit manipulation as well as getting a better grasp of how the django framework operates.
 
 To run:
   -download the code
