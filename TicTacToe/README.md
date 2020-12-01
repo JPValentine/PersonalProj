@@ -12,5 +12,5 @@ To Run:
 
 ![](screenshot/pic2.png)
 _______________________________________________
-
+Picking X or O as your icon:
 ![](screenshot/pic3.png)
